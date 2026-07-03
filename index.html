@@ -103,7 +103,32 @@
         </div>
     </div>
 </div>
-    <div id="section-jardin" class="screen"><button class="back-btn glass-btn" onclick="navigateTo('main-menu')">⬅ Regresar</button><h2 class="section-title title-glow">Jardín</h2></div>
+    <div id="section-jardin" class="screen">
+    <button class="back-btn glass-btn" onclick="navigateTo('main-menu')">⬅ Regresar</button>
+    <h2 class="section-title title-glow">Nuestro Jardín 🌸</h2>
+    
+    <!-- El Jardín -->
+    <div class="garden-container">
+        <!-- Flor 1 a 10 (puedes copiar más) -->
+        <div class="flower" onclick="openFlower('Aquí va el primer recuerdo...', '🌸')">🌸</div>
+        <div class="flower" onclick="openFlower('Aquí va el segundo recuerdo...', '🌹')">🌹</div>
+        <div class="flower" onclick="openFlower('Aquí va el tercer recuerdo...', '🌷')">🌷</div>
+        <div class="flower" onclick="openFlower('Aquí va el cuarto recuerdo...', '🌻')">🌻</div>
+        <div class="flower" onclick="openFlower('Aquí va el quinto recuerdo...', '🌼')">🌼</div>
+        <div class="flower" onclick="openFlower('Aquí va el sexto recuerdo...', '🌺')">🌺</div>
+        <div class="flower" onclick="openFlower('Aquí va el séptimo recuerdo...', '💐')">💐</div>
+        <div class="flower" onclick="openFlower('Aquí va el octavo recuerdo...', '🌿')">🌿</div>
+        <div class="flower" onclick="openFlower('Aquí va el noveno recuerdo...', '🌻')">🌻</div>
+        <div class="flower" onclick="openFlower('Aquí va el décimo recuerdo...', '🌹')">🌹</div>
+    </div>
+
+    <!-- El Mensaje que se abrirá (Modal) -->
+    <div id="flower-modal" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content glass-panel">
+            <span id="modal-text"></span>
+        </div>
+    </div>
+</div>
     <div id="section-amo" class="screen"><button class="back-btn glass-btn" onclick="navigateTo('main-menu')">⬅ Regresar</button><h2 class="section-title title-glow">Cosas que amo de ti</h2></div>
     <div id="section-orgullo" class="screen"><button class="back-btn glass-btn" onclick="navigateTo('main-menu')">⬅ Regresar</button><h2 class="section-title title-glow">Por qué estoy orgulloso</h2></div>
     <div id="section-graduacion" class="screen"><button class="back-btn glass-btn" onclick="navigateTo('main-menu')">⬅ Regresar</button><h2 class="section-title title-glow">Tu Graduación</h2></div>
