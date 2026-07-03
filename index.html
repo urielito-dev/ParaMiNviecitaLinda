@@ -74,18 +74,30 @@
     <button class="back-btn glass-btn" onclick="navigateTo('main-menu')">⬅ Regresar</button>
     <h2 class="section-title title-glow">Tu Viaje</h2>
     
-    <div class="glass-panel text-center">
-        <p class="subtitle">
-            Es increible, quien hubiera dicho que esta bebe tan pequeña se iba a convertir en la maravillosa mujer que eres ahora 🥰
-        </p>
-        <img src="foto-viaje.png" alt="Nuestro viaje" style="width: 50%; border-radius: 15px; margin: 15px 0;">
-        <br>
-        <div style="text-align: left; color: white;">
-            <p><strong>✨:</strong> Me has contado tantas cosas sobre ti susi, unas muuuyyyy vergozosas que no repetire jajajaj, otras muy malas que cuando me lo contaste senti feo por no poder estar ahi contigo en su momento ☹️, y otras felices claro jsjs, pero me alegro mucho al saber que confias en mi para contarme todo eso, me alegro mucho y agradezco a todas esas experiencias ya que gracias a ellas puedo decr que mi noviecita linda es una increible mujer, amable, educada, responsable, amorosa, y mas cosas jsjs.</p>
-            <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 10px 0;">
-            <p><strong>📚 El Esfuerzo:</strong> Recuerdo las noches de estudio, los exámenes y tu dedicación inalcanzable.</p>
-            <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 10px 0;">
-            <p><strong>🎓 La Meta:</strong> Hoy te veo graduada y sé que esto es solo el principio de lo increíble que viene.</p>
+    <!-- Imagen -->
+    <img src="foto-viaje.png" alt="Nuestro viaje" style="width: 50%; display: block; margin: 0 auto 20px auto; border-radius: 15px;">
+
+    <!-- Carta 1: El Comienzo -->
+    <div class="envelope glass-panel" onclick="this.classList.toggle('open')" style="margin-bottom: 15px;">
+        <div class="envelope-cover">✨ El Comienzo (Toca para abrir)</div>
+        <div class="envelope-letter">
+            <p>Me has contado tantas cosas sobre ti Susi, unas cosas muy vergonzosas que no repetiré jajaja, pero son parte de lo que hace que te quiera tanto.</p>
+        </div>
+    </div>
+
+    <!-- Carta 2: El Esfuerzo -->
+    <div class="envelope glass-panel" onclick="this.classList.toggle('open')" style="margin-bottom: 15px;">
+        <div class="envelope-cover">📚 El Esfuerzo (Toca para abrir)</div>
+        <div class="envelope-letter">
+            <p>Recuerdo las noches de estudio, los exámenes y toda tu dedicación inalcanzable. ¡Estoy tan orgulloso de todo ese camino!</p>
+        </div>
+    </div>
+
+    <!-- Carta 3: La Meta -->
+    <div class="envelope glass-panel" onclick="this.classList.toggle('open')">
+        <div class="envelope-cover">🎓 La Meta (Toca para abrir)</div>
+        <div class="envelope-letter">
+            <p>Hoy te veo graduada y sé que esto es solo el principio de lo increíble que viene. ¡Felicidades, mi amor!</p>
         </div>
     </div>
 </div>
