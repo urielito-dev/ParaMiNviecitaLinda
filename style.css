@@ -300,3 +300,36 @@ h1, h2, .title-glow {
     font-size: 1.2rem;
     color: white;
 }
+
+/* Estilo especial para la tarjeta de graduación */
+.graduation-card {
+    background: linear-gradient(145deg, #1a1a1a, #000); /* Fondo negro elegante */
+    border: 3px solid #D4AF37; /* Borde color Oro */
+    border-radius: 15px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.3); /* Resplandor dorado */
+}
+
+.grad-message {
+    font-size: 1.4rem;
+    color: #f0f0f0;
+    line-height: 1.6;
+    font-family: 'Georgia', serif; /* Una fuente tipo diploma */
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: #D4AF37;
+    margin: 0 auto;
+}
+
+.grad-icon {
+    font-size: 3rem;
+    margin-top: 20px;
+}
