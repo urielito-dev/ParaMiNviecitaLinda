@@ -213,8 +213,10 @@ h1, h2, .title-glow {
     overflow: hidden;
 }
 .envelope.open {
-    height: 200px;
+    height: auto;            /* Se ajusta automáticamente al contenido */
+    min-height: 400px;       /* Tamaño mínimo para que no se vea vacía */
     background: rgba(255, 20, 147, 0.1);
+    padding-bottom: 20px;    /* Espacio extra al final */
 }
 .envelope-cover {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
