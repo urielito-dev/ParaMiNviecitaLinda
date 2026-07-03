@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-    /* Esto obliga a las cartas a expandirse automáticamente según el contenido */
+    /* Forzamos que se expanda y que nada se oculte */
     .envelope.open .envelope-letter {
         height: auto !important; 
-        min-height: 100px; 
-        padding: 20px;
+        min-height: 100px !important; 
+        padding: 20px !important;
+        overflow: visible !important; /* Esto evita que el texto se "corte" */
     }
 </style>
 </head>
